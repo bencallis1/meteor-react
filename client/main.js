@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import ImageList from './components/imageList';
+
 
 const App = () => {
    return (
-       <div> <h1>Hello from App</h1> </div>
+       <div>
+            <ImageList />
+       </div>
    )
 };
 

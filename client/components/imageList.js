@@ -1,15 +1,17 @@
 /**
  * Created by Ben on 6/13/16.
  */
-import React from 'react'
+import React from 'react';
+import ImageDetail from './image_detail';
 
-
-const imageList = () => {
-    return(
+const ImageList = () => {
+    return (
         <ul>
-            <li>Image Detail</li>
+          <ImageDetail />
+
         </ul>
+
     );
 };
 
-export default imageList;
+export default ImageList;
