@@ -1,19 +1,42 @@
-import React from 'react';
+// Any JS in here is automatically ran for us
+
+// Import the React library
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
+import ImageList from './components/image_list';
 
-import ImageList from './components/imageList';
+// Create a component
 
+// Class based compoent
+class App extends Component {
+  // Automatically called
+  constructor(props) {
+    super(props);
 
-const App = () => {
-   return (
-       <div>
-            <ImageList />
-       </div>
-   )
+    // Intialize the state with empty array
+    this.state = { images: [] };
+  }
+  // By puttint eh componentWillMount the rest of application can load while the ajax call is being made
+  componentWillMount() {
+    // Fantastic place to load data!
+    axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
+      .then(response => this.setState({ images: response.data.data })); // Here we force a re-render by using this.setState
+    // NEVER DO THIS-
+    // this.state.images = [ {}, {} ];
+  }
+
+  // Class based components will always have the render method
+  render() {
+    return (
+      <div>
+        <ImageList images={this.state.images}/>
+      </div>
+    );
+  }
 };
 
-// We are going to use this meteor method to run our component when the DOM is ready
+// Render this component to the screen
 Meteor.startup(() => {
-   // First arg is the component and the second arg in where you want ot render it to
-   ReactDOM.render(<App/>,document.querySelector('.container'));
-})
+  ReactDOM.render(<App />, document.querySelector('.container'));
+});
