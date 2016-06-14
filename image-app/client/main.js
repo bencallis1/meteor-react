@@ -23,7 +23,7 @@ class App extends Component {
     axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
       .then(response => this.setState({ images: response.data.data })); // Here we force a re-render by using this.setState
     // NEVER DO THIS-
-    // this.state.images = [ {}, {} ];
+    // this.state.image-app = [ {}, {} ];
   }
 
   // Class based components will always have the render method
