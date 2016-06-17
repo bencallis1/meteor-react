@@ -8,7 +8,6 @@ Meteor.startup(() => {
 
     // lets check our collection before we add more fake data
     const numberRecords = Employees.find({}).count();
-    console.log(numberRecords);
     if(!numberRecords) {
         // Use the lodash times method instead of a for loop
         _.times(5000, () => {
@@ -23,8 +22,8 @@ Meteor.startup(() => {
     }
 
     // only publish the first 20 records. We had to run meteor remove autopublish firt in our console
-    Meteor.publish('employees', function() {
-        return Employees.find({}, {limit: 20});
+    Meteor.publish('employees', function(PER_PAGE) {
+        return Employees.find({}, {limit: PER_PAGE});
     });
 
 });

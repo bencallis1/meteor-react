@@ -3,14 +3,27 @@ import { createContainer } from 'meteor/react-meteor-data';
 import { Employees } from '../../imports/collections/employees';
 import EmployeeDetail from './employee_detail';
 
+let PER_PAGE = 20;
+
+this.getMorePeople = function() {
+   var newCount =  PER_PAGE + 20;
+       PER_PAGE = newCount;
+    console.log(newCount)
+    return newCount
+};
+
 const EmployeeList = (props) => {
-    console.log(props.employees);
     return (
         <div>
             <div className="employee-list">
-                {props.employees.map(employee => <EmployeeDetail /> )}
+                {props.employees.map(employee =>
+                    <EmployeeDetail key={employee._id} employee={employee} />
+                )}
 
             </div>
+            <button onClick={() => Meteor.subscribe('employees',this.getMorePeople()) }
+                    className="btn btn-primary">
+                Load More...</button>
         </div>
     )
 };
@@ -20,7 +33,7 @@ const EmployeeList = (props) => {
 export default createContainer(() => {
 
     // set up the subscription  to out publish from the backend
-    Meteor.subscribe('employees');
+    Meteor.subscribe('employees', PER_PAGE);
 
     // return an object. Whatever we return will be sent to EmployeeList as props
     return { employees: Employees.find({}).fetch() };

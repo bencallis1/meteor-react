@@ -46,9 +46,11 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/codegen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/optimizer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/exceptions.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/attrs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/materializer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/template.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/lookup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/builtins.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.4/web.browser/templating-tools.js" />
@@ -188,9 +190,11 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/codegen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/optimizer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/exceptions.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/attrs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/materializer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/template.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/lookup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.7/web.browser/builtins.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.4/web.browser/templating-tools.js" />
