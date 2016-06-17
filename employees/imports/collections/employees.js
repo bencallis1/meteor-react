@@ -3,7 +3,7 @@
  */
 // Declare our collection
 
-import { momgo } from 'meteor-mongo';
+import { momgo } from 'meteor/mongo';
 
 // Now we have a mongoDB Collection setup in our database
 export const Employees = new Mongo.Collection('employees');

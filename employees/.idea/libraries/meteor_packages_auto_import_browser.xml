@@ -13,6 +13,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
         <item url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.4/web.browser/id.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/web.browser/check-npm-versions.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/createContainer.jsx" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/ReactMeteorData.jsx" />
+        <item url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/react-meteor-data.jsx" />
         <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/promise/0.6.7/web.browser/server.js" />
@@ -151,6 +155,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
       <root url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.4/web.browser/id.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/web.browser/check-npm-versions.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/createContainer.jsx" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/ReactMeteorData.jsx" />
+      <root url="file://$USER_HOME$/.meteor/packages/react-meteor-data/0.2.9/web.browser/react-meteor-data.jsx" />
       <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/promise/0.6.7/web.browser/server.js" />
