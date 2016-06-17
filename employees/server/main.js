@@ -1,5 +1,9 @@
+
+
 import { Meteor } from 'meteor/meteor';
+import faker from 'faker';
+import _ from 'lodash';
 
 Meteor.startup(() => {
-  // code to run on server at startup
+
 });
